@@ -62,7 +62,7 @@ Agentic pdf translator/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/aniket21715/Agentic_Pdf_Translator
    cd "Agentic pdf translator"
    ```
 
