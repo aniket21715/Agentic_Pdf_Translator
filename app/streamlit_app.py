@@ -1,7 +1,11 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
+
+# Ensure project root is on the path so `src` is importable
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import plotly.graph_objects as go
 import streamlit as st
@@ -10,7 +14,6 @@ from src.utils.document_parser import extract_text_from_pdf_bytes, extract_text_
 from src.utils.mock_data import SAMPLE_LEGAL_TEXT
 from src.utils.pdf_export import build_translated_document_pdf
 from src.workflow.orchestrator import WorkflowOrchestrator
-
 
 WORKFLOW_STEPS = ["intake", "planner", "execution", "qa", "judge", "delivery"]
 
