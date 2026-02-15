@@ -1,0 +1,98 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.crt
+*.secret
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+.pytest_cache/
+pytest-cache-files-*/
+.mypy_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# ==========================================
+# Logs & Runtime Data
+# ==========================================
+logs/
+*.log
+*.tmp
+
+# ==========================================
+# OS Generated
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ==========================================
+# Model & Data Files (large binaries)
+# ==========================================
+*.nc
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.csv
+*.parquet
+
+# ==========================================
+# Output Files
+# ==========================================
+examples/example_outputs/
+
+# ==========================================
+# Unused / Scratch Work
+# ==========================================
+no_usable/
+
+# ==========================================
+# Documentation (personal notes, not for repo)
+# ==========================================
+Readme.md
+README.md
+DEEP_DIVE_LANGCHAIN_AND_MASTER_AGENT.md
+IMPLEMENTATION_PLAN.md
+INTERVIEW_PREP.md
